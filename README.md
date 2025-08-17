@@ -27,6 +27,14 @@ You can download Python from python.org.
 Verify your Python version:
 
 	python3 --version
+1.2  Install Python Dependencies:
+    This script relies on built-in Python modules, but for future extensibility and best practice, it's good to prepare for potential external Python libraries. If a `requirements.txt` file exists in the repository, you can install any specified Python dependencies using pip:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+This ensures that any future Python libraries your script might need can be easily installed by users.
 
 2. Git ⚙️
 Git: Essential for cloning repositories and managing version control.
@@ -85,7 +93,7 @@ Note: EyeWitness typically requires webkitgtk-1.0 or webkitgtk-3.0 for screensho
 🚀 Setup & Installation
 Clone the Repository (or download the script):
 
-	git clone https://github.com/YOUR_USERNAME/subdomain-automation-tool.git
+	git clone https://github.com/AKASH-00018/Subdomain_automation
 	cd subdomain-automation-tool
 
 Ensure Script Permissions (if necessary):
