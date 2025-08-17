@@ -30,9 +30,9 @@ Verify your Python version:
 1.2  Install Python Dependencies:
     This script relies on built-in Python modules, but for future extensibility and best practice, it's good to prepare for potential external Python libraries. If a `requirements.txt` file exists in the repository, you can install any specified Python dependencies using pip:
 
-    ```bash
+   
     pip install -r requirements.txt
-    ```
+    
 
 This ensures that any future Python libraries your script might need can be easily installed by users.
 
