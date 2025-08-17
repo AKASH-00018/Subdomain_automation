@@ -26,7 +26,7 @@ You can download Python from python.org.
 
 Verify your Python version:
 
-python3 --version
+	python3 --version
 
 2. Git ⚙️
 Git: Essential for cloning repositories and managing version control.
@@ -35,7 +35,7 @@ Download Git from git-scm.com.
 
 Verify Git installation:
 
-git --version
+	git --version
 
 3. External Security Tools (Command-Line) 🔒
 These tools are crucial for the script's functionality and must be installed and accessible in your system's PATH.
@@ -45,7 +45,7 @@ A fast passive subdomain enumeration tool.
 
 Installation (Go):
 
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+	go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 Installation (Pre-compiled binaries): Visit the Subfinder GitHub releases page and download the appropriate binary for your OS.
 
@@ -54,7 +54,7 @@ A powerful network mapping tool that performs a variety of enumeration technique
 
 Installation (Go):
 
-go install -v github.com/owasp-amass/amass/v4/...@master
+	go install -v github.com/owasp-amass/amass/v4/...@master
 
 Installation (Pre-compiled binaries/others): Refer to the Amass GitHub page for detailed installation instructions.
 
@@ -63,7 +63,7 @@ A fast and versatile HTTP toolkit for probing websites.
 
 Installation (Go):
 
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+	go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 Installation (Pre-compiled binaries): Visit the Httpx GitHub releases page and download the appropriate binary for your OS.
 
@@ -72,30 +72,30 @@ A tool to take screenshots of websites, provide HTTP headers, and identify defau
 
 Installation (Clone and install dependencies):
 
-git clone https://github.com/FortyNorthSecurity/EyeWitness.git
-cd EyeWitness/Python/setup
-sudo bash setup.sh
-# After setup, ensure the 'EyeWitness.py' script is in your PATH,
-# or you'll need to specify its full path when running it.
-# You might consider creating a symlink:
-# sudo ln -s /path/to/EyeWitness/Python/EyeWitness.py /usr/local/bin/eyewitness
+	git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+	cd EyeWitness/Python/setup
+	sudo bash setup.sh
+After setup, ensure the 'EyeWitness.py' script is in your PATH,
+or you'll need to specify its full path when running it.
+You might consider creating a symlink:
+sudo ln -s /path/to/EyeWitness/Python/EyeWitness.py /usr/local/bin/eyewitness
 
 Note: EyeWitness typically requires webkitgtk-1.0 or webkitgtk-3.0 for screenshotting, which might need to be installed via your system's package manager (e.g., sudo apt-get install webkitgtk-3.0 on Debian/Ubuntu).
 
 🚀 Setup & Installation
 Clone the Repository (or download the script):
 
-git clone https://github.com/YOUR_USERNAME/subdomain-automation-tool.git
-cd subdomain-automation-tool
+	git clone https://github.com/YOUR_USERNAME/subdomain-automation-tool.git
+	cd subdomain-automation-tool
 
 Ensure Script Permissions (if necessary):
 
-chmod +x subdomain_automator.py
+	chmod +x subdomain_automator.py
 
 🏃 Usage
 Run the script:
 
-python3 subdomain_automator.py
+	python3 subdomain_automator.py
 
 Follow the Prompts:
 
